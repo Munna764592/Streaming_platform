@@ -17,7 +17,7 @@ const app = express();
 const PORT = ENV_VARS.PORT;
 app.use(
   cors({
-    origin: "https://streaming-platform-inky.vercel.app/",
+    origin: "https://streaming-platform33.netlify.app",
     credentials: true,
   })
 );
